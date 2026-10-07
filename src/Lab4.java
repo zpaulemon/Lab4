@@ -1,3 +1,5 @@
+// GitHub Repository: https://github.com/zpaulemon/Lab4
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -58,7 +60,7 @@ public class Lab4 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(args.length > 0 ? null : System.in);
-        System.out.print("Enter the number of integers to be sorted: ");
+        System.out.print("Enter the numbers you want to be sorted: ");
         int n = scanner.nextInt();
 
         int[] arr = new int[n];
